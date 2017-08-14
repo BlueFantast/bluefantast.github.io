@@ -1,0 +1,90 @@
+@charset "utf-8";
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url('./images/bg.gif') repeat center;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin: 10px 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width:1200px) {}
+
+@media (min-width:991px) {
+    #section {
+        padding-right: 4em;
+        border-right: 1px solid #ccc;
+    }
+    #message {
+        width: 210%;
+    }
+}
+
+@media (max-width: 991px) {
+    #slide {
+        float: left;
+        margin-top: 100px;
+    }
+    #section {
+        padding-right: 0;
+        border-right: none;
+    }
+    #message {
+        width: 130%;
+    }
+}
+
+@media (min-width:768px) {}
+
+@media (max-width:768px) {
+    #message {
+        width: 150%;
+    }
+}
+
+#main {
+    min-height: 85%;
+    padding: 20px 30px;
+}
+
+#path {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+#path .breadcrumb {
+    background-color: white;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+}
+
+footer .author {
+    margin: 20px auto 50px;
+    text-align: center;
+}

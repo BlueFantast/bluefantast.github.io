@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>尹志辉的个人博客</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../statics/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./blogdetails.css">
+    <style>
+        #message {
+            min-height: 150px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .comment>h4 {
+            margin: 0 0 30px 0px;
+            padding: 0 0 10px 0px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .comments {
+            margin: 50px 0;
+        }
+        
+        .comments h3 {
+            margin: 20px 0 50px 0;
+        }
+        
+        .comments .media {
+            border-bottom: 1px dashed #2F70A9;
+        }
+        
+        .comments .media p {
+            margin: 0;
+        }
+        
+        .comments .media-top>a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            float: left;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        
+        .comments .media-top>a img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .comments .media-top>div {
+            display: inline-block;
+            padding-left: 1em;
+        }
+        
+        .comments .date {
+            color: gray;
+            font-size: 0.8em;
+        }
+        
+        .comments .media-body {
+            padding: 1em 1em 0 1em;
+        }
+        
+        .comments .media-bottom {
+            text-align: right;
+            margin: 1em 1em .5em 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+    </header>
+    <main id="main" class="container">
+        <div id="path" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-10">
+                <ol class="breadcrumb">
+                    <li class="text-primary">尹志辉的个人博客</li>
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="./blog.html">文章</li>
+                    <li class="active">标签名</li>
+                </ol>
+            </div>
+        </div>
+        <h3 class="text-primary"> </h3>
+        <div class="row">
+            <div id="section" class="col-md-8 col-sm-12 col-xs-12">
+                <div class="article">
+                    <article class="">
+                        <div class="header text-center">
+                            <h3>标题</h3>
+                            <p>发布时间：2017-7-25 &nbsp;&nbsp;&nbsp;&nbsp;作者： <a href="">尹志辉</a> &nbsp;&nbsp;&nbsp;&nbsp;分类:<a href="">文章</a>&nbsp;&nbsp;&nbsp;&nbsp;阅读: <span class="text-default"> 1 </span>次</p>
+                        </div>
+                        <div class="">
+                            <div class="thumbnail">
+                                <div class="img">
+                                    <img src="../images/2.jpg" alt="...">
+                                </div>
+                                <div class="caption">
+                                    <p>This is Timeless , a free, fully standards-compliant CSS template designed by FreeCSSTemplates.org. The picture in this template is from PDPhoto.org. This free template is released under a Creative Commons Attributions
+                                        2.5 license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) Sed lacus. Donec lectus.
+                                        Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus
+                                        turpis, cursus egestas at sem.</p>
+                                    <p class="text-right">
+                                        <a href="#" class="btn btn-link" role="button"> <i class="glyphicon glyphicon-thumbs-up"></i> 赞一个</a> |
+                                        <a href="#" class="btn btn-link" role="button"> <i class="glyphicon glyphicon-share"></i> 分享</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="other">
+                        <p class="previous text-primary pull-left"> <i class="glyphicon glyphicon-chevron-left"></i> 上一篇 : <a href="">文章1</a></p>
+                        <p class="after text-primary pull-right">下一篇 <i class="glyphicon glyphicon-chevron-right"></i> : <a href="">文章2</a></p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <h4 class="text-primary">我要评论:</h4>
+                    <div class="row">
+                        <div id="form" class="col-md-6 col-sm-9 col-xs-8">
+                            <div class="form-group text-primary">
+                                <label for="name"><i class="glyphicon glyphicon-user"></i> Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="">
+                            </div>
+                            <div class="form-group text-primary">
+                                <label for="email"><i class="glyphicon glyphicon-envelope"></i> Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="">
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-md-12 col-sm-9 col-xs-8"> -->
+                            <div class="form-group text-primary">
+                                <label for="message"><i class="glyphicon glyphicon-pencil"></i> Message:</label>
+                                <div class="form-contol" id="message" contenteditable="true"> ......</div>
+                            </div>
+                            <!-- </div>
+                            </div> -->
+                            <button type="submit" class="btn btn-primary col-md-4"><i class="glyphicon glyphicon-send"></i> submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments">
+                    <h3>最新评论:</h3>
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-top">
+                                <a href="#">
+                                    <img class="media-object" src="../images/微博.png" alt="...">
+                                </a>
+                                <div>
+                                    <h5 class="media-heading text-primary">测试用户</h5>
+                                    <p class="date">2017年8月11日 10:25</p>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p> 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下! 测试一下!</p>
+                            </div>
+                            <div class="media-bottom">
+                                <button type="button" class="btn btn-link btn-xs"><i class="glyphicon glyphicon-comment"></i> 回复</button>
+                                <button type="button" class="btn btn-link btn-xs"> <i class="glyphicon glyphicon-thumbs-up"></i> 赞 !</button>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-top">
+                                <a href="#">
+                                    <img class="media-object" src="../images/微博.png" alt="...">
+                                </a>
+                                <div>
+                                    <h5 class="media-heading text-primary">测试用户</h5>
+                                    <p class="date">2017年8月11日 10:25</p>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p> 测试一下!</p>
+                            </div>
+                            <div class="media-bottom">
+                                <button type="button" class="btn btn-link btn-xs"><i class="glyphicon glyphicon-comment"></i> 回复</button>
+                                <button type="button" class="btn btn-link btn-xs"> <i class="glyphicon glyphicon-thumbs-up"></i> 赞 !</button>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-top">
+                                <a href="#">
+                                    <img class="media-object" src="../images/微博.png" alt="...">
+                                </a>
+                                <div>
+                                    <h5 class="media-heading text-primary">测试用户</h5>
+                                    <p class="date">2017年8月11日 10:25</p>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p> 测试一下!</p>
+                            </div>
+                            <div class="media-bottom">
+                                <button type="button" class="btn btn-link btn-xs"><i class="glyphicon glyphicon-comment"></i> 回复</button>
+                                <button type="button" class="btn btn-link btn-xs"> <i class="glyphicon glyphicon-thumbs-up"></i> 赞 !</button>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-top">
+                                <a href="#">
+                                    <img class="media-object" src="../images/微博.png" alt="...">
+                                </a>
+                                <div>
+                                    <h5 class="media-heading text-primary">测试用户</h5>
+                                    <p class="date">2017年8月11日 10:25</p>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p> 测试一下!</p>
+                            </div>
+                            <div class="media-bottom">
+                                <button type="button" class="btn btn-link btn-xs"><i class="glyphicon glyphicon-comment"></i> 回复</button>
+                                <button type="button" class="btn btn-link btn-xs"> <i class="glyphicon glyphicon-thumbs-up"></i> 赞 !</button>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-top">
+                                <a href="#">
+                                    <img class="media-object" src="../images/微博.png" alt="...">
+                                </a>
+                                <div>
+                                    <h5 class="media-heading text-primary">测试用户</h5>
+                                    <p class="date">2017年8月11日 10:25</p>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p> 测试一下!</p>
+                            </div>
+                            <div class="media-bottom">
+                                <button type="button" class="btn btn-link btn-xs"><i class="glyphicon glyphicon-comment"></i> 回复</button>
+                                <button type="button" class="btn btn-link btn-xs"> <i class="glyphicon glyphicon-thumbs-up"></i> 赞 !</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center loadmore">
+                    <a class="" href="#">Load More</a>
+                </div>
+            </div>
+            <div id="slide" class="col-md-3 col-md-offset-1  hidden-xs">
+                <ul>
+                    <li class="input-group">
+                        <input type="search" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button">Go!</button>
+                        </span>
+                    </li>
+                    <li>
+                        <h3 class="text-primary"><i class="glyphicon glyphicon-th-large"></i> 分类导航</h3>
+                        <p><span><a href="">文章</a></span>&nbsp;<span><a href="">学习</a></span>&nbsp;<span><a href="">demo</a></span>&nbsp;<span><a href="">留言</a></span></p>
+                    </li>
+                    <li>
+                        <h3 class="text-primary"><i class="glyphicon glyphicon-duplicate"></i> 最新文章</h3>
+                        <ul class="list">
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="text-primary"><i class="glyphicon glyphicon-star"></i> 热门点击</h3>
+                        <ul class="list">
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="text-primary"><i class="glyphicon glyphicon-tags"></i> 标签</h3>
+                        <ul class="list">
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                            <li><a href="">This is just for testing</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="author">
+                    Design by yinzhihui <a href="http://www.miitbeian.gov.cn/">深ICP备11002373号-1</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
