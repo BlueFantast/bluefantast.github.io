@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+	
+	<title>我的博客</title>
+	<link rel="stylesheet" type="text/css" href="./demo_files/bk.css">
+	<script src="./demo_files/jquery.min.js.下载"></script>
+	<script>
+		window.onload=function(){
+			function gettime(){
+				var time = new Date();
+				var y = time.getFullYear();
+				var man = time.getMonth()+1;
+				var d = time.getDate();
+				var h = time.getHours();
+				var m = time.getMinutes();
+				var s = time.getSeconds();
+				// m = checkTime(m);
+				// s = checkTime(s);
+				document.getElementById("t").innerHTML =y+"年"+man+"月"+d+"日"+h+":"+m+":"+s;
+				var t = setTimeout(function(){gettime()},1000);
+			};
+			gettime();
+
+		    var lunbo = document.getElementById("lunbo");
+		    var imgs = lunbo.getElementsByTagName("img");
+		    var i = 0;
+			    (function change(){
+			      switch(i){
+			        case 0:
+			          $(imgs[0]).fadeIn(1000);
+			          $(imgs[1]).fadeOut(1000);
+			          $(imgs[2]).fadeOut(1000);
+			          break;
+			        case 1:
+			          $(imgs[1]).fadeIn(1000);
+			          $(imgs[0]).fadeOut(1000);
+			          $(imgs[2]).fadeOut(1000);
+			          break;
+			        case 2:
+			          $(imgs[2]).fadeIn(1000);
+			          $(imgs[1]).fadeOut(1000);
+			          $(imgs[0]).fadeOut(1000);
+			          break;
+			      };
+			      i++;
+			      if (i==3) i=0;
+			      setTimeout(change,5000);
+			    })();   
+		  
+		}
+	</script>
+	<script>
+	</script>
+
+</head>
+<body>
+
+	<div id="top">
+		<ul>
+			<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">首页</a></li>
+			<li><a href="http://1.bluedreamer.applinzi.com/%E5%AE%A0%E7%B2%AE%E7%BD%91/clw.html">实例</a></li>
+			<li><a href="file:///D:/demo/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html#wenzhang">新闻资讯</a></li>
+			<li><a href="file:///D:/demo/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html#wenzhang">文章</a></li>
+			<li><a href="file:///D:/demo/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html#wenzhang">技术前沿</a></li>
+			<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">视频</a></li>
+			<li><a href="file:///D:/demo/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html#anli">图片</a></li>
+			<li><a href="file:///D:/demo/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2.html#liuyan">留言</a></li>
+			<li>
+
+			</li>
+		</ul>
+	</div>
+		
+	<div id="neirong">
+		<div class="head">
+			<div id="lunbo">
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/002.jpg" alt="" style="display: none;"></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/006.jpg" alt="" style="display: inline;"></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/004.jpg" alt="" style="display: none;"></a>
+			</div>
+			<div class="jianjie">
+				<span>个人简介</span>
+				<p>
+					姓名:尹志辉<br>
+					职业:web开发<br>
+					电话:18260140374<br>
+					Email:18251953430@163.com
+				</p>
+				<ul>
+					<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/1141506.png" alt="" title="分享"></a></li>
+					<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/1186924.png" alt="" title="微博关注"></a></li>
+					<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/1186902.png" alt=""></a></li>
+					<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/1194711.png" alt="微信关注"></a></li>
+					<li><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/10772.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wenzhang" id="wenzhang">
+			<div>
+				<p>
+					<span><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html" class="bt">应聘者的故事</a></span>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/w1.jpg" width="158px" height="114px" alt=""></a>
+					<small class="sm">
+						我曾看这样一个故事，觉得对现在的企业和个人都具有借鉴意义： 某著名大公司招聘职业经理人，应者云集，其中不乏高学历、多证书、有相关工作经验的人。经过初试、笔试等四轮淘汰后，只剩下6个应聘者，但公司最终只选择一人作为经理、所以，第五轮将有老板亲自面试。看来，接下来的角逐将会更加激烈。
+					</small>
+					<small class="rq">2016-11-7</small>
+				</p>
+				<ul>
+					<li class="l1"></li>
+					<li class="l2"><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"></a></li>
+				</ul>
+			</div>
+			<div>
+				<p>
+					<span><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html" class="bt">原子的扑克牌原理</a></span>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/w2.jpg" width="158px" height="114px" alt=""></a>
+					<small class="sm">
+						我们从初中就学到物质由原子组成，原子由原子核和外层电子组成，电流是电子流动所产生的。然而原子说只是人们为了分析事物的现象所提出的模型，原子并非真实的存在。我们不要试图去观察原子，更不必说比原子还小的粒子。 把一种想象的模型，当成真实的存在，是人类科学处于幼稚阶段的表现。说自己看到了原子的， ...
+					</small>
+					<small class="rq">2016-11-7</small>
+				</p>
+				<ul>
+					<li class="l1"></li>
+					<li class="l2"><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"></a></li>
+				</ul>
+			</div>
+			<div>
+				<p>
+					<span><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html" class="bt">名人谈读书</a></span>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/w3.jpg" width="158px" height="114px" alt=""></a>
+					<small class="sm">
+						鸟欲高飞先振翅，人求上进先读书——李苦禅<br>
+						读书之法，在循序而渐进，熟读而精思——朱熹<br>
+						读不在三更五鼓，功只怕一曝十寒——郭沫若<br>
+						读一本好书，就是和许多高尚的人谈话——歌德<br>
+						读书是在别人思想的帮助下，建立起自己的思想——鲁巴金<br>
+						黑发不知勤学早，白发方悔读书迟——颜真卿<br>
+						书卷多情似故人，晨昏忧乐每相亲——于谦<br>
+						书犹药也，善读之可以医愚——刘向<br>
+						发奋识遍天下字，立志读尽人间书——苏轼<br>
+					</small>
+					<small class="rq">2016-11-7</small>
+				</p>
+				<ul>
+					<li class="l1"></li>
+					<li class="l2"><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"></a></li>
+				</ul>
+			</div>
+			<div>
+				<p>
+					<span><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html" class="bt">假如我有一支马良的笔</a></span>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/w4.jpg" width="158px" height="114px" alt=""></a>
+					<small class="sm">
+						假如我有一支马良的笔，我会在地球上画一些山川草木，让世界艳丽多彩，用神笔画出来树木将不会枯萎，永远地染绿地球，净化空气，让世界不再有黑烟污染空气。画出来的山将可以让人们锻炼身体，每天早晨爬到山顶做运动，老年人还可以在山上打太极拳，更可以在高高的山顶上看日出、日落 ...
+					</small>
+					<small class="rq">2016-11-7</small>
+				</p>
+				<ul>
+					<li class="l1"></li>
+					<li class="l2"><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"></a></li>
+				</ul>
+			</div>
+			<div>
+				<p>
+					<span><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html" class="bt">趁我们都还年轻</a></span>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/w7.jpg" width="158px" height="114px" alt=""></a>
+					<small class="sm">
+						趁我们都还年轻,多走几步路，多欣赏下沿途的风景，不要急于抵达目的地而错过了流年里温暖的人和物；趁我们都还年轻，多说些浪漫的话语,多做些幼稚的事情，不要嫌人笑话错过了生命中最美好的片段和场合；趁我们都还年轻，把距离缩短，把时间延长。趁我们都还年轻...
+					</small>
+					<small class="rq">2016-11-7</small>
+				</p>
+				<ul>
+					<li class="l1"></li>
+					<li class="l2"><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="tuijian">
+			<div class="wz">
+				<div class="bt">
+					推荐文章
+				</div>
+				<div class="zw">
+					<span>
+						<strong>01  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;平淡中的幸福</a>
+					</span>
+					<span>
+						<strong>02  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;有趣的汕尾一日游</a>
+					</span>
+					<span>
+						<strong>03  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;假如我有一只尼尔斯的鹅</a>
+					</span>
+					<span>
+						<strong>04  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;我最熟悉的一个人</a>
+					</span>
+					<span>
+						<strong>05  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;未来城之旅</a>
+					</span>
+					<span>
+						<strong>06  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;边疆的战士</a>
+					</span>
+					<span>
+						<strong>07  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;偷偷老去的70后</a>
+					</span>
+					<span>
+						<strong>08  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;要学会说能话糊涂话</a>
+					</span>
+					<span>
+						<strong>09  </strong>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">&nbsp;友情需要常交流</a>
+					</span>
+				</div>
+			</div>
+			<div class="tw">
+				<span class="bt">图文并茂</span>
+				<div class="zw">
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">
+						<p>
+							<img src="./demo_files/01.jpg" alt="">
+							一个非主流观众的自言自语<br>
+							<small>有料</small>
+						</p>
+					</a>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">
+						<p>
+							<img src="./demo_files/02.jpg" alt="">
+							友情需要常交流<br>
+							<small>感兴趣</small>
+						</p>
+					</a>
+					<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">
+						<p>
+							<img src="./demo_files/03.jpg" alt="">
+							世上所谓的幸福,就是一个笨蛋遇到一个傻瓜.<br>
+							<small>喜欢</small>
+						</p>
+					</a>
+				</div>
+			</div>
+			<div class="rm">
+				<span class="bt">热门点击</span>
+				<div class="zw">
+					<span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 慢生活 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">有一种思念，是淡淡的幸福</a>
+					</span>
+					<span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 美文欣赏 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">励志人生-要做一个潇洒的人</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 慢生活 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">一个非主流观众的自言自语</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 个人博客 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">Green绿色小清新的夏天</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 个人博客 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">清新个人博客网站</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 主题网站 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">Wedding-婚礼主题网站</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 网站布局 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">Column 三栏布局网站</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 个人网站 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">时间煮雨的个人网站</a>
+					</span><span>
+						<small>【<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> 古典风格 </a>】</small>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">花气袭人是酒香</a>
+					</span>
+				</div>	
+			</div>
+			<div class="ss">
+				<input type="search" value="Search" placeholder="Search">
+			</div>
+			<div class="music">
+				<div class="mp">
+					<img src="./demo_files/artwork.png" alt="">
+					<p>
+						海阔天空<br>
+						歌手:信乐团<br>
+						所属专辑: &lt;&lt;海阔天空&gt;&gt;<br>
+						<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">喜欢</a>
+					</p>
+				</div>
+				<audio controls="">
+					<source src="海阔天空.mp3" type="audio/mp3">
+				</audio>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="lianjie">
+			<header>友情链接</header>
+			<span><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html">我的的个人博客</a></span>
+			<span><a href="http://1.bluedreamer.applinzi.com/%E5%AE%A0%E7%B2%AE%E7%BD%91/clw.html">作品案例</a></span>
+			<iframe src="./demo_files/map.html" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<div class="liuyan">
+			<header>最新留言</header>
+			<article class="lyz">
+				<img src="./demo_files/s7.jpg" alt="留言者">
+				<header><strong>&nbsp;yisa</strong><time>&nbsp;20分钟前</time> <span>留言:</span></header>
+				<p>页面可以再增加点内容和案例...</p>
+			</article>
+			<form action="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html" class="lyb">
+				<p>留言板:</p>
+				<textarea id="liuyan" cols="50" rows="7" placeholder="给点建议..."></textarea>
+				<input type="button" value="提交" title="提交">
+			</form>
+		</div>
+		<div class="anli" id="anli">
+			<header>作品案例</header>
+			<p>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/01.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/02.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/03.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/04.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/05.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/06.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/07.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/08.jpg" alt=""></a>
+				<a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"><img src="./demo_files/09.jpg" alt=""></a>
+			</p>
+		</div>
+		<span class="di">
+			<small>Copyright 2016 Design by</small><a href="file:///C:/Users/Administrator.XD-20160221YLLM/Desktop/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2_.html"> Yinzhihui</a> <span id="t">2017年8月16日9:58:49</span>
+			
+		</span>
+	</div>
+
+
+
+</body></html>
