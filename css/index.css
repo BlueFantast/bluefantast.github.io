@@ -11,7 +11,7 @@ body {
 }
 
 ul {
-    padding-left: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -37,6 +37,25 @@ h3 {
     }
 }
 
+@media (max-width:768px) {
+    .nav li {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width:480px) {
+    #logo h2 {
+        font-size: 1.6em;
+    }
+    #logo {
+        margin: 10px auto;
+    }
+}
+
+.hide-all {
+    display: none;
+}
+
 #logo {
     margin: 20px auto;
 }
@@ -48,6 +67,8 @@ h3 {
 
 .nav li {
     margin: 0 40px 0 0px;
+    font-size: 1.1em;
+    text-align: center;
 }
 
 #main {
